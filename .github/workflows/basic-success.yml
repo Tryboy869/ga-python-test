@@ -1,0 +1,11 @@
+
+name: 1. Basic Success Test
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello
+        run: echo "Hello World"
+      - name: List files
+        run: ls -la
