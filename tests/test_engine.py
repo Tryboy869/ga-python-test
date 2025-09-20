@@ -1,4 +1,1 @@
-
-# Ce fichier contiendra les tests unitaires pour l'engine.
-# Pour cette preuve de concept, les tests sont effectués directement dans le notebook.
-pass
+# Fichier de tests pour l'engine (placeholder)
