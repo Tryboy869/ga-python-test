@@ -1,0 +1,23 @@
+name: Test NEXUS AXION
+on: 
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World
+        run: echo "Hello from GitHub Actions!"
+      
+      - name: Show Repository
+        run: echo "Repository is ${{ github.repository }}"
+      
+      - name: List Directory
+        run: ls -la
+      
+      - name: Create Test File
+        run: |
+          echo "Test file content" > test.txt
+          cat test.txt
